@@ -1,0 +1,27 @@
+{
+  "name": "STTDemo",
+  "version": "0.1.0",
+  "summary": "A short description of STTDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/junwu555/LJNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lijunwu": "1908812367@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/junwu555/LJNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "STTDemo/Classes/**/*",
+  "resource_bundles": {
+    "STTDemo": [
+      "STTDemo/Assets/*.jpg"
+    ]
+  }
+}

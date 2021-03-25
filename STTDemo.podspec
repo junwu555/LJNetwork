@@ -21,20 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lijunwu/STTDemo'
+  s.homepage         = 'https://github.com/junwu555/LJNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lijunwu' => '1908812367@qq.com' }
-  s.source           = { :git => 'https://github.com/lijunwu/STTDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/junwu555/LJNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'STTDemo/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'STTDemo' => ['STTDemo/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'STTDemo' => ['STTDemo/Assets/*.png'],
+     'STTDemo' => ['STTDemo/Assets/*.jpg']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

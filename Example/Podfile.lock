@@ -1,0 +1,16 @@
+PODS:
+  - STTDemo (0.1.0)
+
+DEPENDENCIES:
+  - STTDemo (from `../`)
+
+EXTERNAL SOURCES:
+  STTDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STTDemo: 3d8859d3a8ff1992bea28affb66bae6cbbe8c7a4
+
+PODFILE CHECKSUM: b3a0b2849cae4a69781094e119247fabe2ce5f90
+
+COCOAPODS: 1.10.1
