@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://gitlab.nerdlinux.com/ios/fantuan.app.ios.pods_specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FTUIDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FTUIDemo
+ pod 'FTUIKit','0.0.2'
+ pod 'FTUtil','0.0.2'
+  target 'FTUIDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FTUIDemoUITests' do
+    # Pods for testing
+  end
+
+end

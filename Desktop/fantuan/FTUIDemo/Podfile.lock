@@ -1,0 +1,81 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout (0.9.8):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.8)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.8)
+  - FTUIKit (0.0.2):
+    - CHTCollectionViewWaterfallLayout (= 0.9.8)
+    - FTUtil
+    - HXPhotoPicker (= 2.4.4)
+    - IQKeyboardManager (= 6.5.6)
+    - JXCategoryView (= 1.5.5)
+    - JXPagingView/Pager (= 2.0.3)
+    - Masonry (= 1.1.0)
+    - MBProgressHUD (= 1.1.0)
+    - MJRefresh (= 3.4.3)
+    - RJBadgeKit (= 0.2.5)
+    - SDWebImage (= 5.2.5)
+    - TABAnimated (= 2.2.6)
+    - TTTAttributedLabel (= 2.0.0)
+  - FTUtil (0.0.2):
+    - FTUtil/Categoires (= 0.0.2)
+  - FTUtil/Categoires (0.0.2)
+  - HXPhotoPicker (2.4.4)
+  - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.5.5)
+  - JXPagingView/Pager (2.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.4.3)
+  - RJBadgeKit (0.2.5)
+  - SDWebImage (5.2.5):
+    - SDWebImage/Core (= 5.2.5)
+  - SDWebImage/Core (5.2.5)
+  - TABAnimated (2.2.6):
+    - TABAnimated/Core (= 2.2.6)
+    - TABAnimated/Reveal (= 2.2.6)
+  - TABAnimated/Core (2.2.6)
+  - TABAnimated/Reveal (2.2.6):
+    - TABAnimated/Core
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - FTUIKit (= 0.0.2)
+  - FTUtil (= 0.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CHTCollectionViewWaterfallLayout
+    - HXPhotoPicker
+    - IQKeyboardManager
+    - JXCategoryView
+    - JXPagingView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - RJBadgeKit
+    - SDWebImage
+    - TABAnimated
+    - TTTAttributedLabel
+  https://gitlab.nerdlinux.com/ios/fantuan.app.ios.pods_specs.git:
+    - FTUIKit
+    - FTUtil
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
+  FTUIKit: 84a4212c5df7adde75c2c90c71ce4afd78f14968
+  FTUtil: 30a29538cb018dee3ae6331ccda8cf340503ea44
+  HXPhotoPicker: f3a635a7d9ca257dd19d254909cbc8e7a1aed809
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  JXPagingView: 16f18d80bd79e0aab2e77fd8855211359e2506a4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  RJBadgeKit: 5536a6506ead83f0ef644397a244de42ce3e84f7
+  SDWebImage: 4eabf2fa6695c95c47724214417a9c036c965e4a
+  TABAnimated: 29f7b2be33c55213bb70eba13e9a5780cf8c83c9
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: ef49259a3d8999abc9621872b08a68a26d119174
+
+COCOAPODS: 1.10.1
